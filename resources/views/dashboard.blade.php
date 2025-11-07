@@ -13,7 +13,7 @@
 
     <hr>
 
-    <form action="{{ route('ideas.index') }}" method="GET" class="mb-3 d-flex gap-2">
+    <form action="{{ route('dashboard') }}" method="GET" class="mb-3 d-flex gap-2">
         <input type="text" name="search" class="form-control" placeholder="Rechercher une idée" value="{{ $search }}">
 
         <button type="submit" class="btn btn-outline-primary">Rechercher</button>
